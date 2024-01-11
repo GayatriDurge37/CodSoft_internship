@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fa84b3;
+    overflow: hidden;
+    position: relative;
+}
+
+.calculator {
+    border: 1px solid #79c3f0;
+    padding: 20px;
+    border-radius: 16px;
+    background: linear-gradient(45deg, #84fab0, #8fd3f4);
+    background-size: 600% 600%;
+    animation: Gradient 10s ease infinite;
+    backdrop-filter: blur(5px);
+}
+
+input {
+    width: 320px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 40px;
+    background: #f9f3df;
+    color: #080101;
+}
+
+input::placeholder {
+    color: #6c5f5f;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 20%;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button {
+    background: linear-gradient(45deg, #ff5f6d, #ffc371);
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ffc371, #ff5f6d);
+}
+
+.equalBtn {
+    background: linear-gradient(45deg, #11998e, #38ef7d);
+}
+
+.equalBtn:hover {
+    background: linear-gradient(45deg, #38ef7d, #11998e);
+}
+
+.operator {
+    background: linear-gradient(45deg, #834d9b, #e582ea);
+}
+
+.operator:hover {
+    background: linear-gradient(45deg, #f075f7, #834d9b);
+}

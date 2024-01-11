@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilory";
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#top{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    background-image: url(https://i.etsystatic.com/25220272/r/il/8a6f1f/2806764316/il_fullxfull.2806764316_avc9.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+
+#text{
+    position: absolute;
+    justify-content: space-between;
+    bottom: 70%;
+    width: 100%;
+    padding: 0 2vw;
+}
+
+#text h1{
+    font-size: 3vw;
+}
+#bottom{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    
+}
+
+#bone{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://cdn.tatlerasia.com/asiatatler/i/hk/2019/12/10104936-best-christmas-scented-candles_cover_940x593.png); 
+    background-position: center;
+    background-size: 95%;
+}
+
+#btext{
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    padding: 0 2vw;
+    color: #fff;
+}
+
+#btext{
+    font-size: 60%;
+    font-style:inherit
+}
+
+#btext p{
+    font-size: 12px;
+    width: 40%;
+}
+
+#btwo{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://rmshop.no/wp-content/uploads/2019/08/433060-3.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+#bttext{
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    padding: 0 9vw;
+    color: aliceblue;
+}
+
+#bttext p{
+    font-size: 12px;
+}
+#bthree{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://2.bp.blogspot.com/-ll8_7kYkVzs/V_P8Jwsje4I/AAAAAAAATmg/uunaHn9W9n00wao3snuuJ6Tpcnk775j8gCLcB/s1600/Vanilla_WoodWICK_Candle.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+#bthtext{
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    padding: 0 1vw;
+}
+
+#bthtext{
+    font-size: 70%;
+    color: #fff;
+}
+
+#bfour{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://d2hx20539ip1kk.cloudfront.net/wp-content/uploads/2020/08/27074303/The-Greatest-Scented-Candles-For-Your-Home-According-To-Experts.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+#bftext{
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    padding: 0 1vw;
+    font-size: 50%;
+    color: #fff;
+}
+
+#bftext p{
+    font-size: 12px;
+}
